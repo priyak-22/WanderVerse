@@ -1,0 +1,170 @@
+
+/* Carousel Images */
+.carousel-img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #123B5D !important;
+}
+
+/* Navbar Brand and Links */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Navbar Hover Effect */
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: #F4C95D;
+    border-bottom: 2px solid #F4C95D;
+}
+
+/* Active Navbar Link */
+.navbar .nav-link.active {
+    color: #F4C95D;
+    border-bottom: 2px solid #F4C95D;
+}
+
+/* Responsive Carousel */
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 280px;
+    }
+}
+
+
+
+/* Login Page */
+body {
+    background-color: #F1F5F9;
+    font-family: Arial, sans-serif;
+}
+
+/* Login Card */
+.login-card {
+    border: none;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 600px;
+}
+
+/* Login Heading */
+.login-card h3 {
+    color: #123B5D;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.form-control {
+    padding: 11px;
+    border-radius: 8px;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #123B5D;
+    color: white;
+    padding: 11px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: #0B2D49;
+    color: white;
+}
+
+/* Register Link */
+.register-link {
+    color: #123B5D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    color: #E9A23B;
+    text-decoration: underline;
+}
+/* Register Card */
+.register-card {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* Back to Home Button */
+.home-btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 230px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #123B5D;
+    border: 2px solid #123B5D;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.home-btn:hover {
+    background-color: #123B5D;
+    color: white;
+}
+
+
+.footer {
+    background-color: #123B5D;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer h4,
+.footer h5 {
+    color: #F4C95D;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    color: #E2E8F0;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #E2E8F0;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.footer a:hover {
+    color: #F4C95D;
+    text-decoration: underline;
+}
+
+.footer hr {
+    border-color: #AFC5D8;
+}
+
